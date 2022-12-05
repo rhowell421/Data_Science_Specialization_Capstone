@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/976620/e65af2b27aa34841a3d7cecc0f52f298
+bundleId: https://api.rpubs.com/api/v1/document/976620/e65af2b27aa34841a3d7cecc0f52f298
+url: http://rpubs.com/rhowell421/976620
+when: 1669755749.63211
+lastSyncTime: 1669755749.63213
