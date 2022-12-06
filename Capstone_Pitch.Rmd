@@ -1,0 +1,35 @@
+---
+title: "Next Word Generator <br> Sales Pitch"
+author: "Rhowell"
+date: "2022-12-05"
+output: ioslides_presentation
+---
+
+## Sales Pitch for the Next Word Generator
+
+The final capstone of the Data Science Specialization course by John Hopkins University through Coursera is to build an app which generates words based on user input.  
+
+The app need to be scaled to run in a Shiny app, but effective enough to generate next words based off of n-grams.  
+
+The corpa came from SwiftKeys, and consists of Twitter, blogs and news articles.
+
+
+## Methodology
+
+The corpa were cleaned and restructured into a useable format. Tokens of n-grams were created, and then ranked by frequency they appeared in the corpus. 
+
+Originally, there were 2.4 million records in the SwiftKeys corpa, and they were reduced to bigrams, trigrams, and quadgrams. 
+
+When the user begins to type, the algorithm starts by trying to match and return a quadgram, and if it does not match, searches for the trigrams, and if it does not match, searches through the bigrams.
+
+## Visual
+
+Here is a screen capture of the Next Word Generator app!
+
+<img src="nwg.png" alt="Screen Capture" style="width:100%;"/>
+
+## Links
+
+The link to the Next Word Generator app can be found on [Shinyapps.io](https://rhowell421.shinyapps.io/Next_Word_Generator/)
+
+The link to the code can be found on [GitHub](https://github.com/rhowell421)
